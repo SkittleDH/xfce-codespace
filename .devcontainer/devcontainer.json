@@ -1,0 +1,8 @@
+{
+  "name": "xfce",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "forwardPorts": [6080],
+  "postCreateCommand": "bash /postcreate.sh"
+}
